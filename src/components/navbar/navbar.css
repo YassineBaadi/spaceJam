@@ -1,0 +1,19 @@
+.containerNav {
+    background-color: rgba(255, 255, 255, 0.10);
+    padding: 2rem 10rem;
+    height: 100%;
+}
+
+.containerList {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.containerList li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
