@@ -1,6 +1,8 @@
 .containerNav {
     background-color: rgba(255, 255, 255, 0.10);
-    padding: 2rem 10rem;
+    padding: 1rem;
+    padding-right: 20rem;
+    padding-left: 10rem;
     height: 100%;
 }
 
@@ -11,9 +13,24 @@
 }
 
 .containerList li a {
+    font-family: 'Barlow Condensed';
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.containerList li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+.containerList li a.active::after {
+    width: 100%;
 }

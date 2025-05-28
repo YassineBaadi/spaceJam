@@ -1,0 +1,75 @@
+.containerDestination {
+    background-image: url('../../assets/img/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+}
+
+.destinationContent {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 100%;
+}
+
+.destinationBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    gap: 5rem;
+}
+
+.destinationLeft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planetImage {
+    height: 350px;
+    object-fit: contain;
+}
+
+.destinationRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.destinationTabs {
+    position: absolute;
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    top: 35%;
+    right: 34%
+}
+
+.tab {
+    cursor: pointer;
+    color: #d0d6f9;
+    position: relative;
+    text-decoration: none;
+}
+
+.tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}

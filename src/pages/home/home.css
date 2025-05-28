@@ -4,4 +4,71 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: flex-end; /* 🠖 aligne tout en bas */
+    justify-content: flex-start; /* 🠖 aligne à gauche */
+    padding: 4rem; /* 🠖 marge interne pour ne pas coller aux bords */
+    box-sizing: border-box;
+}
+
+.homeContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    color: white;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-family: 'Bellefair';
+}
+
+.homeText {
+    max-width: 500px;
+}
+
+.homeText h5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.homeText h1 {
+    font-size: 200px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.homeText p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #d0d6f9;
+    margin-top: 1rem;
+}
+
+.homeExplore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exploreButton {
+    width: 274px;
+    height: 274px;
+    background-color: white;
+    color: #0b0d17;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.exploreButton:hover {
+    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
 }

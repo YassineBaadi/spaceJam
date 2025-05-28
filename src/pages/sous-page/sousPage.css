@@ -1,0 +1,69 @@
+.planetContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding-top: 3rem;
+    width: 100%;
+    margin-top: 20%;
+}
+
+.planetLeft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planetImage {
+    height: 450px;
+    object-fit: contain;
+}
+
+.planetRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.planetName {
+    font-size: 6rem;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.planetDesc {
+    font-family: 'Barlow', sans-serif;
+    color: #d0d6f9;
+    line-height: 1.8;
+    max-width: 450px;
+}
+
+hr {
+    width: 100%;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    margin: 1rem 0;
+}
+
+.planetStats {
+    display: flex;
+    gap: 4rem;
+    text-transform: uppercase;
+}
+
+.planetStats h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    color: #d0d6f9;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.planetStats p {
+    font-family: 'Bellefair', serif;
+    font-size: 1.5rem;
+    margin: 0;
+}

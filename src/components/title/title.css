@@ -1,0 +1,23 @@
+.titleContainer {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 25px;
+    margin-top: 12%;
+    margin-left: 17%;
+}
+
+.titleNumber {
+    opacity: 0.25;
+    font-size: 30px;
+}
+
+.titleText {
+    font-weight: normal;
+    margin: 0;
+}
