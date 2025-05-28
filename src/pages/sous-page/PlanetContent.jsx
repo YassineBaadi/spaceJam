@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import data from '../../assets/data/data.json';
-import './sousPage.css';
+import './planetContent.css';
 
 
 export default function PlanetContent() {

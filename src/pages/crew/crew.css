@@ -5,9 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: flex-end; /* 🠖 aligne tout en bas */
-    justify-content: flex-start; /* 🠖 aligne à gauche */
-    padding: 4rem; /* 🠖 marge interne pour ne pas coller aux bords */
+    align-items: flex-end;
+    justify-content: flex-start; 
+    padding: 4rem; 
     box-sizing: border-box;
 }
 
@@ -32,6 +32,7 @@
 
 .crewInfo {
     margin-top: 2rem;
+   
 }
 
 .crewRole {
@@ -51,6 +52,7 @@
     color: #d0d6f9;
     line-height: 1.6;
     font-family: 'Barlow', sans-serif;
+     width: 500px;
 }
 
 .crewDots {
@@ -85,4 +87,28 @@
     left: 60%;
     height: 600px;
     object-fit: contain;
+}
+
+.crewNavigation {
+    position: absolute;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 15%;
+  bottom: 20%;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.dot.active {
+  background-color: white;
 }

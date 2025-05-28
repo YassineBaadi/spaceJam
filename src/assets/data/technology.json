@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Launch vehicle",
+    "url": "launchvehicle",
+    "sub" : "THE TERMINOLOGY...",
+    "description": "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload...",
+    "img": "/spaceJam/assets/img/technology/image-launch-vehicle-portrait.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Spaceport",
+    "url": "spaceport",
+    "sub" : "Quelque chose",
+    "description": "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft...",
+    "img": "/spaceJam/assets/img/technology/image-spaceport-portrait.jpg"
+  },
+  {
+    "id": 3,
+    "url": "spacecapsule",
+    "sub" : "Quelque pas chose",
+    "name": "Space capsule",
+    "description": "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule...",
+    "img": "/spaceJam/assets/img/technology/image-space-capsule-portrait.jpg"
+  }
+]
